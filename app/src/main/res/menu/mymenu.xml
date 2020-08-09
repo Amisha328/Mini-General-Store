@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/action_bar"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="">
+        <menu>
+
+            <item android:id="@+id/item"
+                  android:title="Logout"
+                android:icon="@drawable/ic_exit"
+                app:showAsAction="ifRoom">
+
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>
