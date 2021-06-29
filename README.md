@@ -1,6 +1,6 @@
-## MiniGeneralStore
+## Mini General Store
 
-#### Full Cart Store
+### Full Cart Store
 
 Android Application build using 
 - JAVA for back-end
