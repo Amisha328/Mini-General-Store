@@ -13,7 +13,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class AddProductActivity extends AppCompatActivity {
-   MyDatabase database;
+    MyDatabase database;
     EditText e8, e9, e10, e11;
     Button b3;
     AlertDialog.Builder builder;
@@ -80,8 +80,6 @@ public class AddProductActivity extends AppCompatActivity {
                             e9.setText("");
                             e10.setText("");
                             e11.setText("");
-
-
                         }
                     });
                     builder.show();

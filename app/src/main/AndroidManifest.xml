@@ -4,22 +4,25 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/generalstore"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/generalstore"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ShowActivity"></activity>
-        <activity android:name=".AddProductActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DeleteRecord" />
+        <activity android:name=".UpdateRecord" />
+        <activity android:name=".ShowActivity" />
+        <activity android:name=".AddProductActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>

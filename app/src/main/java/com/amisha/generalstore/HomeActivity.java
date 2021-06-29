@@ -45,6 +45,20 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent=new Intent(HomeActivity.this,DeleteRecord.class);
+                startActivity(intent);
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent=new Intent(HomeActivity.this,UpdateRecord.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

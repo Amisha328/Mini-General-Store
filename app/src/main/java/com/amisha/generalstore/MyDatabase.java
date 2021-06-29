@@ -72,6 +72,35 @@ public class MyDatabase extends SQLiteOpenHelper {
         return result;
     }
 
+    //############# Delete Record ##############
+    public long deleteRecord(int productId) {
+
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        // on below line we are calling a method to delete our
+        // course and we are comparing it with our course name.
+        long result = db.delete(DB_TABLE, "ID=?", new String[]{String.valueOf(productId)});
+        return result;
+    }
+
+    //############# Update Record ##############
+    public long updateRecord(int original_id,int id,String name,int price,int quantity) {
+
+        // calling a method to get writable database.
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+        // on below line we are passing all values
+        // along with its key and value pair.
+        values.put(ID, id);
+        values.put(NAME, name);
+        values.put(PRICE,price);
+        values.put(QUANTITY, quantity);
+
+        long result = db.update(DB_TABLE,values,"ID=?", new String[]{String.valueOf(original_id)});
+        return result;
+    }
+
     //################---Get Single Record---#############
     public  ProductRec getSingleRec(int id) {
         SQLiteDatabase db = getReadableDatabase();
@@ -130,5 +159,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         }
 
     }
+
+
 
 }

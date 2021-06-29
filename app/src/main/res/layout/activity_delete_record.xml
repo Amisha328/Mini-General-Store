@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShowActivity">
-
+    tools:context=".DeleteRecord">
     <TextView
         android:id="@+id/textView8"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Product Details"
+        android:text="Delete Product Details"
         android:background="#090909"
         android:fontFamily="serif"
         android:gravity="center"
@@ -25,7 +24,7 @@
         app:layout_constraintVertical_bias="0.092" />
 
     <EditText
-        android:id="@+id/editText12"
+        android:id="@+id/editText_id"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -36,15 +35,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.196" />
+        app:layout_constraintVertical_bias="0.284" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#090809"
         android:fontFamily="serif-monospace"
-        android:text="Search"
+        android:text="Delete"
 
         android:textColor="@color/colorAccent"
         android:textSize="20dp"
@@ -54,16 +53,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.479" />
 
-    <ListView
-        android:id="@+id/listview"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.934" />
 </androidx.constraintlayout.widget.ConstraintLayout>

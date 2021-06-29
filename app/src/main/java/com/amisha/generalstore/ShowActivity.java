@@ -39,7 +39,7 @@ public class ShowActivity extends AppCompatActivity {
                 if(checkid!=0)
                 {
                     detail.clear();
-                detail.add("Product id: "+rec.getId()+"\n\n\n"+"Product Name: "+rec.getName()+"\n\n\n"+"Product Price: "+rec.getPrice()+" per pic \n\n\n Product Quantity: "+rec.getQuantity());
+                    detail.add("Product id: "+rec.getId()+"\n\n\n"+"Product Name: "+rec.getName()+"\n\n\n"+"Product Price: "+rec.getPrice()+" per pic \n\n\nProduct Quantity: "+rec.getQuantity());
 
                 }
                 else

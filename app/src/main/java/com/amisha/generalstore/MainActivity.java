@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         UserRec rec = database.checkRec(name);
                         String checkuser = rec.getUsername();
                         String checkpass = rec.getPassword();
+                        Toast.makeText(MainActivity.this, "Name:"+checkuser, Toast.LENGTH_SHORT).show();
                         if (checkuser != null) {
                             if (checkpass.equals(password)) {
                                 editor.putString("name_key", name);
