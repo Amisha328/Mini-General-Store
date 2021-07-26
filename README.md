@@ -12,7 +12,7 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
 ### Technology
 
 - JAVA for back-end
-- XML for back-end
+- XML for front-end
 - SQLite for databse
 
 ### Tools
