@@ -9,6 +9,17 @@
 
 It aims to replace the tedious task of maintaining traditional pen-paper record by an Android application.
 
+### Technology
+
+- JAVA for back-end
+- XML for back-end
+- SQLite for databse
+
+### Tools
+
+- Android Studio
+- Git
+- GitHub
 
 
 
