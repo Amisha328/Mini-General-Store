@@ -1,16 +1,17 @@
-## Mini General Store
+## Mini General Store - Full Cart Store
 
-### Full Cart Store
 
-Android Application build using 
-- JAVA for back-end
-- XML for back-end
-- SQLite for databse
+### About the Project
 
-#### Features:-
-1) Application designed for shopkeepers to maintain records of products in users' small general store shop using SQLite.
-2) Implement the CURD feature to manage the product record like Add Item, Show Item, Delete Item, Update Item.
+`General store - Full Cart Store` is a mini `android application` build for the shopkeepers to maintain records of products in users' small general store shop. It uses `SQLite database` to store data locally on the user's device.
 
-#### Target:-
-Aims to replace the tedious task of maintaining traditional pen-paper record by an Android application.
+### Target
+
+It aims to replace the tedious task of maintaining traditional pen-paper record by an Android application.
+
+
+
+
+
+
 
