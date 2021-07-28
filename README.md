@@ -1,4 +1,4 @@
-# Mini General Store - Full Cart Store
+# Mini General Store - Full Cart Store 🛒
 
 
 ## About the Project
