@@ -42,6 +42,16 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
         </tr>
 </table>
 
+### - Delete item 
+
+<table>
+        <tr> 
+        <td><img src = "ScreenShots/delete.jpeg"  width="200"></td>
+        <td><img src = "ScreenShots/after delete.jpeg" width="200"></td>
+        <td><img src = "ScreenShots/show_after_delete.jpeg" width="200"></td>
+        </tr>
+</table>
+
 
 ## Technology
 
