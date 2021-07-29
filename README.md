@@ -15,10 +15,10 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
 
 <table>
         <tr> 
-        <td><img src = "ScreenShots/splash_screen.jpeg"  width="180"></td>
-        <td><img src = "ScreenShots/register.jpeg" width="180"></td>
-        <td><img src = "ScreenShots/login.jpeg" width="180"></td>
-        <td><img src = "ScreenShots/dashboard.jpeg" width="180"></td>
+        <td><img src = "ScreenShots/splash_screen.jpeg"  width="200"></td>
+        <td><img src = "ScreenShots/register.jpeg" width="200"></td>
+        <td><img src = "ScreenShots/login.jpeg" width="200"></td>
+        <td><img src = "ScreenShots/dashboard.jpeg" width="200"></td>
         </tr>
 </table>
 
