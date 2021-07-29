@@ -22,7 +22,7 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
         </tr>
 </table>
 
-### Add Items and Show Item details
+### Add items and Show item details
 
 <table>
         <tr> 
@@ -30,6 +30,18 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
         <td><img src = "ScreenShots/show_details.jpeg" width="200"></td>
         </tr>
 </table>
+
+### Update item details and Show updated item details
+
+<table>
+        <tr> 
+        <td><img src = "ScreenShots/update_page.jpeg"  width="200"></td>
+        <td><img src = "ScreenShots/update.jpeg" width="200"></td>
+        <td><img src = "ScreenShots/updated-success.jpeg" width="200"></td>
+        <td><img src = "ScreenShots/show_after_update.jpeg" width="200"></td>
+        </tr>
+</table>
+
 
 ## Technology
 
