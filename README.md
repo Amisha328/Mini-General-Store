@@ -11,7 +11,7 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
 
 ## Screenshots of the application
 
-### Register/Login and Dashboad
+### 1.Register/Login and Dashboad
 
 <table>
         <tr> 
@@ -22,7 +22,7 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
         </tr>
 </table>
 
-### Add items and Show item details
+### 2.Add items and Show item details
 
 <table>
         <tr> 
@@ -31,7 +31,7 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
         </tr>
 </table>
 
-### Update item details and Show updated item details
+### 3.Update item details and Show updated item details
 
 <table>
         <tr> 
@@ -42,7 +42,7 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
         </tr>
 </table>
 
-### Delete item 
+### 4.Delete item 
 
 <table>
         <tr> 
