@@ -22,6 +22,15 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
         </tr>
 </table>
 
+### Add Items and Show Item details
+
+<table>
+        <tr> 
+        <td><img src = "ScreenShots/add.jpeg"  width="200"></td>
+        <td><img src = "ScreenShots/show_details.jpeg" width="200"></td>
+        </tr>
+</table>
+
 ## Technology
 
 - JAVA for back-end
