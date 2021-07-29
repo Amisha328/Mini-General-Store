@@ -9,6 +9,19 @@
 
 It aims to replace the tedious task of maintaining traditional pen-paper record by an Android application.
 
+## Screenshots of the application
+
+### Register/Login and Dashboad
+
+<table>
+        <tr> 
+        <td><img src = "ScreenShots/splash_screen.jpeg"  width="180"></td>
+        <td><img src = "ScreenShots/register.jpeg" width="180"></td>
+        <td><img src = "ScreenShots/login.jpeg" width="180"></td>
+        <td><img src = "ScreenShots/dashboard.jpeg" width="180"></td>
+        </tr>
+</table>
+
 ## Technology
 
 - JAVA for back-end
