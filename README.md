@@ -55,15 +55,15 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
 
 ## Technology
 
-- JAVA for back-end
-- XML for front-end
-- SQLite for database
+- `JAVA` for back-end
+- `XML` for front-end
+- `SQLite` for database
 
 ## Tools
 
-- Android Studio
-- Git
-- GitHub
+- `Android Studio`
+- `Git`
+- `GitHub`
 
 ## Setting up project
 
