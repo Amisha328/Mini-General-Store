@@ -71,7 +71,7 @@ It aims to replace the tedious task of maintaining traditional pen-paper record 
 
 2. Clone the repository by running following command in git:
 
-   `$ git clone https://github.com/[YOUR-USERNAME]/Mini-General-Store.git`
+   `$ git clone https://github.com/[YOUR-USERNAME]/Keep-Notes.git`
 
 
 
